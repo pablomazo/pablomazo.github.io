@@ -89,7 +89,7 @@ def main():
         elif fmt == "html":
             finalize = finalize_html
             template_file = "cv.html.in"
-            output_file = "./build/index.html"
+            output_file = "./index.html"
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
         # Load the template environment
         env = Environment(loader=FileSystemLoader("./data"), finalize=finalize)
