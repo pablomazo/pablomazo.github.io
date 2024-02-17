@@ -1,4 +1,5 @@
 import json
+import os
 import re
 
 import yaml
@@ -115,4 +116,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print(os.getcwd())
     main()
