@@ -28,7 +28,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Build
       - run: poetry install --only main
       - run: poetry run make    
 
