@@ -1,0 +1,68 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage[parfill]{parskip}
+\usepackage{ulem}
+\title{Curriculum Vitae}
+\date{}
+
+\begin{document}
+\begin{center}
+\Large \textbf{Curriculum Vitae}
+\end{center}
+\section{Datos Personales}
+\textbf{Name:} Pablo del Mazo Sevillano\\
+
+\section{Positions}
+\begin{itemize}
+{% for p in positions %}
+	\item {{p.period}}: {{p.type}}, {{ p.institution }}, {{p.where}}.
+{% endfor %}
+\end{itemize}
+
+\section{Publications}
+\begin{itemize}
+{% for p in publications %}
+	\item {{p}}.
+{% endfor %}
+\end{itemize}
+
+\section{Education}
+\begin{itemize}
+{% for p in education %}
+	\item {{p.year}}: {{p.title}}, {{ p.where }}
+{% endfor %}
+\end{itemize}
+
+\section{Congress}
+\textbf{Invited}
+\begin{itemize}
+{% for c in congress.invited %}
+	\item {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.
+{% endfor %}
+\end{itemize}
+
+\textbf{Communication}
+\begin{itemize}
+{% for c in congress.communication %}
+	\item {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.
+{% endfor %}
+\end{itemize}
+
+\textbf{Poster}
+\begin{itemize}
+{% for c in congress.poster %}
+	\item {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.
+{% endfor %}
+\end{itemize}
+
+\end{document}

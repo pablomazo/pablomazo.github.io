@@ -1,0 +1,86 @@
+awards:
+funding:
+education:
+  - title: "[PhD in Theoretical Chemistry and Computational Modelling](https://repositorio.uam.es/handle/10486/694500)"
+    year: 2021
+    where: Autonomous University of Madrid (Spain)
+  - title:  M. S. in Theoretical Chemistry and Computational Modelling
+    year: 2017
+    where: University of Salamanca (Spain)
+    note: 2 year master
+  - title: M. S. Teacher Training in Secondary Education, Vocational Training and Language Teaching
+    year: 2016
+    where: Valencian International University (Spain)
+  - title: B. S. in Chemistry
+    year: 2015
+    where: University of Salamanca (Spain)
+positions:
+  - type: Assistant Professor
+    institution: Autonomous University of Madrid. Applied Chemical Physics Department
+    where: Madrid (Spain)
+    period: "**Mar 2023-**"
+  - type: Margarita Salas Contract
+    institution: Autonomous University of Madrid. Applied Chemical Physics Department
+    where: Madrid (Spain)
+    period: "**Jan 2023-Feb 2023**"
+  - type: Postdoctoral Contract
+    institution: Free University of Berlin. Department of Mathematics
+    where: Berlin (Germany)
+    period: "**May 2021-Dec 2022**"
+  - type: University Assistant
+    institution: Autonomous University of Madrid. Applied Chemical Physics Department
+    where: Madrid (Spain)
+    period: "**Sep 2017-Apr 2021**"
+  - type: Practice contract (Garantía Juvenil)
+    institution: Spanish National Research Council (CSIC)
+    where: Madrid (Spain)
+    period: "**Jun 2016-Sep 2017**"
+congress:
+  poster:
+    - title: Potential Energy Surface for the H<sub>2</sub>CO + OH reaction
+      name: European Conference on Laboratory Astrophysics
+      year: 2016
+      place: Madrid (Spain)
+    - title: Potential Energy Surface and kinetics of the H<sub>2</sub>CO + OH reaction
+      name: The Astrochemical Week
+      year: 2017
+      place: University of Algarve, Faro (Portugal)
+    - title: Potential Energy Surface and low temperature reaction dynamics for H<sub>2</sub>CO + OH \rightarrow H<sub>2</sub>O+HCO
+      name: COST CM 1401 “Our Astrochemical History”
+      year: 2017
+      place: University of Castilla-La Mancha, Ciudad Real (Spain)
+    - title: Dynamics for the H<sub>2</sub>CO + OH reaction
+      name: COST CM 1401 “Our Astrochemical History”
+      year: 2018
+      place: University of Groningen, Groningen (The Netherlands)
+    - title: "Quantum Roaming in the Complex Forming Mechanism of Reactions of OH with H<sub>2</sub>CO and CH<sub>3</sub>OH at Low Temperature in the Low Pressure Limit: A Ring Polymer Molecular Dynamics Approach"
+      name: EpoLM-4
+      year: 2019
+      place: University of Groningen, Groningen (The Netherlands)
+    - title: Neural network potential energy surface for the low temperature Ring Polymer Molecular Dynamics of the H<sub>2</sub>CO + OH reaction
+      name: Symposium on Machine Learning in Quantum Chemistry
+      year: 2021
+      place: Xiamen (China)
+      note: (online)
+  communication:
+    - title: Potential Energy Surface and dynamics for the H<sub>2</sub>CO + OH reaction
+      name: IX Jornadas de Jóvenes Investigadores en Física Atómica y Molecular
+      year: 2017
+      place: University of Sevilla (Spain)
+    - title: Artificial Neural Network Potential Energy Surface for H<sub>2</sub>CO+OH reaction
+      name: 10<sup>th</sup> International Meeting on Atomic and Molecular Physics and Chemistry-IMAMPC2019
+      year: 2019
+      place: Autonomous University of Madrid (Spain)
+    - title: Variational principle to regularize machine-learned density functionals
+      name: XVII Iberian Joint Meeting on Atomic and Molecular Physics
+      year: 2023
+      place: University of Coimbra (Portugal)
+  invited:
+    - title: Potential Energy Surface and dynamics of the H<sub>2</sub>CO + OH reaction
+      name: Collisional Excitation of Hydrides in the Interstellar Medium
+      year: 2019
+      place: University of Salamanca (Spain)
+    - title: Machine learning to represent the PES of gas phase reactions
+      name: SUL4LIFE Kick-off meeting
+      year: 2024
+      place: Madrid (Spain)

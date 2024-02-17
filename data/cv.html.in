@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>Curriculum Vitae</h1>
+<ol>
+	<li><h2>Personal data</h2> </li>
+		<p><b>Name:</b> Pablo del Mazo Sevillano</p>
+	<li><h2>Positions</h2> </li>
+	<ul>
+		{% for p in positions%}
+		<li> {{p.period}}: {{p.type}}, {{ p.institution }}, {{p.where}}. </li>
+		{% endfor%}
+	</ul>
+	<li><h2>Publications</h2> </li>
+	<ul>
+		{% for p in publications %}
+		<li> {{p}}. </li>
+		{% endfor %}
+	</ul>
+	<ul>
+	</ul>
+	<li><h2>Education</h2> </li>
+	<ul>
+		{% for p in education%}
+		<li> {{p.year}}: {{p.title}}, {{ p.where }}.</li>
+		{% endfor%}
+	</ul>
+	<li><h2>Congress</h2> </li>
+		<p><b>Invited</b></p>
+	<ul>
+		{% for c in congress.invited%}
+		<li> {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.</li>
+		{% endfor%}
+	</ul>
+		<p><b>Communication</b></p>
+	<ul>
+		{% for c in congress.communication%}
+		<li> {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.</li>
+		{% endfor%}
+	</ul>
+		<p><b>Poster</b></p>
+	<ul>
+		{% for c in congress.poster%}
+		<li> {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.</li>
+		{% endfor%}
+	</ul>
+</ol>
+
+</body>
+</html> 
