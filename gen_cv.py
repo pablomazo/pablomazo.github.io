@@ -85,11 +85,12 @@ def main():
         if fmt == "tex":
             finalize = finalize_tex
             template_file = "cv.tex.in"
-            output_file = "cv.tex"
+            output_file = "./build/cv.tex"
         elif fmt == "html":
             finalize = finalize_html
             template_file = "cv.html.in"
-            output_file = "index.html"
+            output_file = "./build/index.html"
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
         # Load the template environment
         env = Environment(loader=FileSystemLoader("./data"), finalize=finalize)
 
