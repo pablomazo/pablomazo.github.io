@@ -1,8 +1,8 @@
  <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" href="styles.css">
-	</head>
+<style>
+  {% include "styles.css" %}
+</style>
 <body>
 
 <h1>Curriculum Vitae</h1>
