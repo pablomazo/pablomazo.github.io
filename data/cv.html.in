@@ -1,23 +1,20 @@
  <!DOCTYPE html>
 <html>
-	
-<head>
-  <title>Pablo del Mazo Sevillano</title>
-</head>
-
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
 <body>
 
 <h1>Curriculum Vitae</h1>
 <ol>
-	<li><h2>Personal data</h2> </li>
-		<p><b>Name:</b> Pablo del Mazo Sevillano</p>
-	<li><h2>Positions</h2> </li>
+	<p class="name"> Pablo del Mazo Sevillano</p>
+	<h2>Positions</h2>
 	<ul>
 		{% for p in positions%}
 		<li> {{p.period}}: {{p.type}}, {{ p.institution }}, {{p.where}}. </li>
 		{% endfor%}
 	</ul>
-	<li><h2>Publications</h2> </li>
+	<h2>Publications</h2>
 	<ul>
 		{% for p in publications %}
 		<li> {{p}}. </li>
@@ -25,13 +22,13 @@
 	</ul>
 	<ul>
 	</ul>
-	<li><h2>Education</h2> </li>
+	<h2>Education</h2>
 	<ul>
 		{% for p in education%}
 		<li> {{p.year}}: {{p.title}}, {{ p.where }}.</li>
 		{% endfor%}
 	</ul>
-	<li><h2>Congress</h2> </li>
+	<h2>Congress</h2>
 		<p><b>Invited</b></p>
 	<ul>
 		{% for c in congress.invited%}
