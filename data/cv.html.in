@@ -5,9 +5,8 @@
 </style>
 <body>
 
-<h1>Curriculum Vitae</h1>
+<h1>Pablo del Mazo Sevillano</h1>
 <ol>
-	<p class="name"> Pablo del Mazo Sevillano</p>
 	<h2>Positions</h2>
 	<ul>
 		{% for p in positions%}
