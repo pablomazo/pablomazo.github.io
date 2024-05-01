@@ -50,6 +50,12 @@
 		<li> {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.</li>
 		{% endfor%}
 	</ul>
+	<h2>Awards</h2>
+	<ul>
+		{% for a in awards%}
+		<li> {{a.title}}.</li>
+		{% endfor%}
+	</ul>
 </ol>
 
 </body>

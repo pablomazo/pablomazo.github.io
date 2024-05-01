@@ -63,4 +63,11 @@
 {% endfor %}
 \end{itemize}
 
+\section{Awards}
+\begin{itemize}
+{% for a in awards %}
+	\item {{a.title}}.
+{% endfor %}
+\end{itemize}
+
 \end{document}
