@@ -16,7 +16,11 @@
 	<h2>Publications</h2>
 	<ul>
 		{% for p in publications %}
-		<li> {{p}}. </li>
+			{% if p.extras.arxiv is defined %}
+				<li> {{p.main}}. <a href={{p.extras.arxiv}} target="_blank"><img src="images/arxiv-logo.png"style="width: 50px; height: auto;"></a></li>
+			{% else %}
+				<li> {{p.main}}. </li>
+			{% endif %}
 		{% endfor %}
 	</ul>
 	<ul>

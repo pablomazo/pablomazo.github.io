@@ -35,7 +35,7 @@ def process_congress(data):
     return data
 
 
-def get_publications(raw_publications):
+def get_publications(raw_publications, pub_extra):
     publications = []
 
     def get_authors(authors, max_authors=7):
@@ -65,6 +65,7 @@ def get_publications(raw_publications):
         )
 
     for paper in raw_publications:
+        extras = {}
         authors = get_authors(paper["author"])
         title = paper["title"]
         url = "https://doi.org/" + paper["DOI"]
@@ -76,7 +77,9 @@ def get_publications(raw_publications):
             + f"]({url})"
             f" ({paper['issued']['date-parts'][0][0]})"
         )
-        publications.append(f"{title}: {authors}, {ref}")
+        if paper["id"] in pub_extra.keys():
+            extras = {k: v for k, v in pub_extra[paper["id"]][0].items()}
+        publications.append({"main": f"{title}: {authors}, {ref}", "extras": extras})
     return publications
 
 
@@ -105,8 +108,10 @@ def main():
 
         with open("./data/references.json", "r") as f:
             publications = json.load(f)
+        with open("./data/pub_extra.yaml", "r") as f:
+            pub_extra = yaml.safe_load(f)
 
-        data["publications"] = get_publications(publications)
+        data["publications"] = get_publications(publications, pub_extra)
         # data = process_positions_tex(data)
         # Render the template with the data
         rendered = template.render(data)

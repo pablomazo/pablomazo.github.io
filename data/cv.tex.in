@@ -17,10 +17,8 @@
 
 \begin{document}
 \begin{center}
-\Large \textbf{Curriculum Vitae}
+\Large \textbf{Pablo del Mazo Sevillano}
 \end{center}
-\section{Datos Personales}
-\textbf{Name:} Pablo del Mazo Sevillano\\
 
 \section{Positions}
 \begin{itemize}
@@ -32,14 +30,14 @@
 \section{Publications}
 \begin{itemize}
 {% for p in publications %}
-	\item {{p}}.
+	\item {{p.main}}.
 {% endfor %}
 \end{itemize}
 
 \section{Education}
 \begin{itemize}
 {% for p in education %}
-	\item {{p.year}}: {{p.title}}, {{ p.where }}
+	\item {{p.year}}: {{p.title}}, {{p.where}}.
 {% endfor %}
 \end{itemize}
 
