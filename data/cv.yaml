@@ -1,6 +1,27 @@
 awards:
   - title: Extraordinary Award in Master Degree (Master Degree in "Theoretical Chemistry and Computational Modelling")
 funding:
+  - title: Potenciales de interacción de sistemas poliatómicos
+    pi: Alfredo Aguado Gómez, Cristina Sanz Sanz
+    role: Research Team
+    reference: PID2021-122549NB-C22
+    entity: Agencia Estatal de Investigación
+    period: 2022-09-01/2025-08-31
+    quantity: 84,700.00€
+  - title: Colisiones y fotodisociación de interés astrofísico en fase gas y en hielos y dinámica en superficies
+    pi: Alfredo Aguado Gómez
+    role: Member of Work Group
+    reference: FIS2017-83473-C2-2-P
+    entity: Ministerio de Economía y Competitividad
+    period: 2018-01-01/2021-09-30
+    quantity: 48,400.00€
+  - title: Procesos dinámicos y estocásticos en astrofísica molecular y en la interacción gas superficie
+    pi: Alfredo Aguado Gómez
+    role: Member of Work Group
+    reference: FIS2014-52172-C2-2-P
+    entity: Ministerio de Economía y Competitividad
+    period: 2015-01-01/2018-12-31
+    quantity: 36,300.00€
 education:
   - title: "[PhD in Theoretical Chemistry and Computational Modelling](https://repositorio.uam.es/handle/10486/694500)"
     year: 2021

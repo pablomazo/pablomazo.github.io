@@ -12,13 +12,23 @@
 \usepackage{multirow}
 \usepackage[parfill]{parskip}
 \usepackage{ulem}
+\usepackage{eurosym}
+
 \title{Curriculum Vitae}
 \date{}
 
 \begin{document}
 \begin{center}
-\Large \textbf{Pablo del Mazo Sevillano}
+\Large \textbf{Curriculum Vitae}
 \end{center}
+
+\section{Personal information}
+{\bf Name:} Pablo del Mazo Sevillano\\
+{\bf Email:} pablo.delmazo@uam.es\\
+{\bf ORCID:} \href{https://orcid.org/0000-0001-5411-1724}{0000-0001-5411-1724}\\
+{\bf Current position:} Assistant Professor, UAM\\
+{\bf Department:} Applied Chemical Physics\\
+
 
 \section{Positions}
 \begin{itemize}
@@ -60,6 +70,14 @@
 \begin{itemize}
 {% for c in congress.poster %}
 	\item {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.
+{% endfor %}
+\end{itemize}
+
+\section{Funding}
+\let\texteuro\euro
+\begin{itemize}
+{% for f in funding %}
+\item {{f.title}}, {{f.reference}}. {\bf PI:} {{f.pi}}. {\bf Role:}  {{f.role}}. {\bf Period:} {{f.period}}, {{f.quantity}}.
 {% endfor %}
 \end{itemize}
 
