@@ -69,14 +69,24 @@ def get_publications(raw_publications, pub_extra):
         authors = get_authors(paper["author"])
         title = paper["title"]
         url = "https://doi.org/" + paper["DOI"]
-        ref = (
-            "["
-            + f"*{paper['container-title']}* "
-            + f"**{(paper['volume'] if 'volume' in paper.keys() else ' ')}**"
-            + f", {(paper['page'] if 'page' in paper.keys() else '')}"
-            + f"]({url})"
-            f" ({paper['issued']['date-parts'][0][0]})"
-        )
+        try:
+            ref = (
+                "["
+                + f"*{paper['container-title']}* "
+                + f"**{(paper['volume'] if 'volume' in paper.keys() else ' ')}**"
+                + f", {(paper['page'] if 'page' in paper.keys() else '')}"
+                + f"]({url})"
+                f" ({paper['issued']['date-parts'][0][0]})"
+            )
+        except KeyError:
+            # Probably it is a preprint
+            ref = (
+                "["
+                + f"*{paper['number']}* "
+                + f"]({url})"
+                f" ({paper['issued']['date-parts'][0][0]})"
+            )
+
         if paper["id"] in pub_extra.keys():
             extras = {k: v for k, v in pub_extra[paper["id"]][0].items()}
         publications.append({"main": f"{title}: {authors}, {ref}", "extras": extras})
