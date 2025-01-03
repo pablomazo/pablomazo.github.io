@@ -1,6 +1,13 @@
 awards:
   - title: Extraordinary Award in Master Degree (Master Degree in "Theoretical Chemistry and Computational Modelling")
 funding:
+  - title: Advanced Membrane Synthesis and AI-Driven Optimization for Green Hydrogen Production
+    pi: Daniel Herranz González, Pablo del Mazo-Sevillano
+    role: PI
+    reference: SI4/PJI/2024-00168
+    entity: Comunidad de Madrid
+    period: 2025-01-01/2026-12-31
+    quantity: 40,000.00€
   - title: Potenciales de interacción de sistemas poliatómicos
     pi: Alfredo Aguado Gómez, Cristina Sanz Sanz
     role: Research Team
@@ -92,6 +99,10 @@ congress:
     - title: Artificial Neural Network Potential Energy Surface for H<sub>2</sub>CO+OH reaction
       name: 10<sup>th</sup> International Meeting on Atomic and Molecular Physics and Chemistry-IMAMPC2019
       year: 2019
+      place: Autonomous University of Madrid (Spain)
+    - title: First Symposium of Physical Chemistry at UAM (First Symposium on Knowledge Transfer)
+      name: Machine learning the electronic structure of atoms and molecules
+      year: 2023
       place: Autonomous University of Madrid (Spain)
     - title: Variational principle to regularize machine-learned density functionals
       name: XVII Iberian Joint Meeting on Atomic and Molecular Physics
