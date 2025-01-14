@@ -121,3 +121,27 @@ congress:
       name: SUL4LIFE Kick-off meeting
       year: 2024
       place: Madrid (Spain)
+mentoring:
+  - person: Daniel Félix González
+    type: Undergraduate Thesis
+    title: "Simulación de Espectros Moleculares: Estudio Teórico de la Molécula Diatómica SH<sup>+</sup>"
+    year: 2019/20
+    note: Codirected with Prof. A. Aguado
+    where: UAM
+  - person: Francisco José Gómez Ortiz
+    type: Undergraduate Thesis
+    title: DINÁMICA MOLECULAR EN REACCIONES QUÍMICAS TRIATÓMICAS
+    year: 2019/20
+    note: Codirected with Prof. O. Roncero
+    where: UAM
+  - person: Ana Pose Utrilla
+    type: Undergraduate Thesis
+    title: Simulación teórica de los espectros de la molécula de interés astroquímico SiC
+    year: 2020/21
+    where: UAM
+    note: Codirected with Prof. A. Aguado
+  - person: Nerea Muñoz Díaz
+    type: Undergraduate Thesis
+    title: CÁLCULO DE CONSTANTES CINÉTICAS DE REACCIONES UNIMOLECULARES
+    year: 2023/24
+    where: UAM

@@ -50,10 +50,27 @@
 		<li> {{c.title}}, {{ c.name }}, {{c.year}},  {{c.place}} {{c.note}}.</li>
 		{% endfor%}
 	</ul>
+	<h2>Funding</h2>
+	<ul>
+		{% for f in funding%}
+		<li> {{f.title}}, {{f.reference}}. <b>PI:</b> {{f.pi}}. <b>Role:</b>  {{f.role}}. <b>Period:</b> {{f.period}}, <b> Amount:</b> {{f.quantity}}.</li>
+		{% endfor%}
+	</ul>
 	<h2>Awards</h2>
 	<ul>
 		{% for a in awards%}
 		<li> {{a.title}}.</li>
+		{% endfor%}
+	</ul>
+
+	<h2>Mentoring</h2>
+	<ul>
+		{% for e in mentoring%}
+			{% if e.note is defined %}
+				<li> {{e.person}}, {{e.type}}, {{e.where}}, {{e.title}} ({{e.year}}). ({{e.note}}).</li>
+			{% else %}
+				<li> {{e.person}}, {{e.type}}, {{e.where}}, {{e.title}} ({{e.year}}).</li>
+			{% endif %}
 		{% endfor%}
 	</ul>
 </ol>
