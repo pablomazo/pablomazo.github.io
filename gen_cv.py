@@ -15,6 +15,7 @@ def finalize_tex(x):
         x = re.sub(r"\[(.+?)\]\((.+?)\)", r"\\href{\2}{\1}", x)
         x = x.replace("\\rightarrow", "$\\rightarrow$")
         x = x.replace("-", "--")
+        x = x.replace("&", "\&")
     return x
 
 
