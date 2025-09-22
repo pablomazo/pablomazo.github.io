@@ -45,9 +45,13 @@ education:
     where: University of Salamanca (Spain)
 positions:
   - type: Assistant Professor
+    institution: University of Salamanca. Chemical Physics Department
+    where: Salamanca (Spain)
+    period: "**Sep 2025-**"
+  - type: Assistant Professor
     institution: Autonomous University of Madrid. Applied Chemical Physics Department
     where: Madrid (Spain)
-    period: "**Mar 2023-**"
+    period: "**Mar 2023-Sep 2025**"
   - type: Margarita Salas Contract
     institution: Autonomous University of Madrid. Applied Chemical Physics Department
     where: Madrid (Spain)
