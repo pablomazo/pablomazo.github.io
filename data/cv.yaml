@@ -1,6 +1,13 @@
 awards:
   - title: Extraordinary Award in Master Degree (Master Degree in "Theoretical Chemistry and Computational Modelling")
 funding:
+  - title: "Constantes de velocidad moleculares cuánticas: buscando las rutas químicas del universo"
+    pi: Octavio Roncero Villa, Germán Molpeceres
+    role: Reseach Team
+    reference: PID2024-156686NB-I00
+    entity: Ministerio de Ciencia, Innovación y Universidades
+    period: 2025-09-01/2027-08-31
+    quantity: 125,000.00€
   - title: Advanced Membrane Synthesis and AI-Driven Optimization for Green Hydrogen Production
     pi: Daniel Herranz González, Pablo del Mazo-Sevillano
     role: PI
@@ -13,7 +20,7 @@ funding:
     role: Research Team
     reference: PID2021-122549NB-C22
     entity: Agencia Estatal de Investigación
-    period: 2022-09-01/2025-08-31
+    period: 2022-09-01/2025-08-31 (extended to 2026-05-31)
     quantity: 84,700.00€
   - title: Colisiones y fotodisociación de interés astrofísico en fase gas y en hielos y dinámica en superficies
     pi: Alfredo Aguado Gómez
@@ -129,6 +136,10 @@ congress:
       name: SUL4LIFE Kick-off meeting
       year: 2024
       place: Madrid (Spain)
+    - title: "From Adiabatic to Diabatic: Neural Network Representations of Multistate Potential Energy Matrices"
+      name: 9th edition of the High Dimensional Quantum Dynamics (HDQD)
+      year: 2026
+      place: Salamanca (Spain)
 mentoring:
   - person: Daniel Félix González
     type: Undergraduate Thesis
@@ -156,6 +167,12 @@ mentoring:
   - person: Miguel Ángel Cremaes Menéndez
     type: Undergraduate Thesis
     title: PROCESOS DE DIFUSIÓN DE OH<sup>-</sup> EN MEMBRANA PARA LA PRODUCCIÓN DE HIDROGENO VERDE
+    year: 2025/26
+    where: UAM
+    note: Codirected with Prof. Daniel Herránz González
+  - person: Myriam Ramírez Alonso
+    type: Undergraduate Thesis
+    title: SÍNTESIS AVANZADA DE MEMBRANAS Y OPTIMIZACIÓN ASISTIDA POR IA PARA LA PRODUCCIÓN DE HIDRÓGENO VERDE
     year: 2025/26
     where: UAM
     note: Codirected with Prof. Daniel Herránz González
